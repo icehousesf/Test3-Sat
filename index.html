@@ -6,44 +6,51 @@
 </head>
 <body>
     <h1>Tracking on the creation of this repository and files:</h1>
-    <p>Following GitHub on command line Part 2 video:<br>
-    1) from posh~git, create the Test3-Sat folder, run git init<br>
-    2) from Visual Studio Code (VSC), create the index.html<br>
-    3) from github.com, create a new repository called "Test3-Sat", it gave the following instructions...<br>
-    <br>
-        …or create a new repository on the command line<br>
-<br>
-        echo "# Test3-Sat" >> README.md<br>
-        git init<br>
-        git add README.md<br>
-        git commit -m "first commit"<br>
-        git remote add origin https://github.com/icehousesf/Test3-Sat.git<br>
-        git push -u origin master<br>
-<br>
-<br>
-        …or push an existing repository from the command line<br>
-<br>
-        git remote add origin https://github.com/icehousesf/Test3-Sat.git<br>
-        git push -u origin master<br>
-     4) from posh~git, ran the 2 commands below:<br>
-            git remote add origin https://github.com/icehousesf/Test3-Sat.git<br>
-            git push -u origin master<br>
-     5) from posh~git, run the following commands:<br>
-            git branch add-more-html (create new branch called "add-more-html")<br>
-<br>
-            git checkout add-more-html<br>
-     6) from VSC, modify the index.html<br>
-     7) from posh~git, run the following commands:<br>
-            git add index.html (to stage)<br>
-            git commit -m '... the commit message ...'<br>
-            git push -u origin add-more-html (to push the local branch "add-more-html" to remote)<br>
-            note: use "git log -n"" to check the commit history<br>
-     8) from Github.com, click "Compare & pull request" button to create the pull request<br>
-     9) from posh~git, run the following commands:<br>
-            git checkout master<br>
-            git merge add-more-html (to merge the add-more-html and the master branches locally)<br>
-            git push (to push the "add-more-html" branch to remote<br>
-     10) from Github.com, delete the "add-more-html" branch<br>
-    </p>
+    <p>Following GitHub on command line Part 2 video:</p>
+    <p>1) from posh~git, create the Test3-Sat folder, run git init</p>
+    <p>2) from Visual Studio Code (VSC), create the index.html</p>
+    <p>3) from github.com, create a new repository called "Test3-Sat", it gave the following instructions...</p>
+    </ol>
+    <p>…or create a new repository on the command line</p>
+    <pre>
+    echo "# Test3-Sat" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git remote add origin https://github.com/icehousesf/Test3-Sat.git
+    git push -u origin master
+    </pre>
+    <p>…or push an existing repository from the command line</p>
+    <pre>
+    git remote add origin https://github.com/icehousesf/Test3-Sat.git
+    git push -u origin master
+    </pre>
+    <p>4) from posh~git, ran the 2 commands below:</p>
+    <pre>
+    git remote add origin https://github.com/icehousesf/Test3-Sat.git
+    git push -u origin master
+    </pre>
+    <p>5) from posh~git, run the following commands:</p>
+    </ol>
+    <pre>
+    git branch add-more-html (create new branch called "add-more-html")
+    git checkout add-more-html
+    </pre>
+    <p>6) from VSC, modify the index.html<p>
+    <p>7) from posh~git, run the following commands:<p>
+    <pre>
+    git add index.html (to stage)
+    git commit -m '... the commit message ...'
+    git push -u origin add-more-html (to push the local branch "add-more-html" to remote)
+    </pre>
+    <p>note: use "git log -n"" to check the commit history</p>
+    <p>8) from Github.com, click "Compare & pull request" button to create the pull request</p>
+    <p>9) from posh~git, run the following commands:</p>
+    <pre>
+    git checkout master
+    git merge add-more-html (to merge the add-more-html and the master branches locally)
+    git push (to push the "add-more-html" branch to remote
+    </pre>
+    <p>10) from Github.com, delete the "add-more-html" branch</p>
 </body>
 </html>
