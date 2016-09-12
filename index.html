@@ -8,7 +8,7 @@
     <h1>Tracking on the creation of this repository and files:</h1>
     <p>Following GitHub on command line Part 2 video:<br>
     1) from posh~git, create the Test3-Sat folder, run git init<br>
-    2) from Visual Studio Code, create the index.html<br>
+    2) from Visual Studio Code (VSC), create the index.html<br>
     3) from github.com, create a new repository called "Test3-Sat", it gave the following instructions...<br>
     <br>
         …or create a new repository on the command line<br>
@@ -33,7 +33,17 @@
 <br>
             git checkout add-more-html<br>
      6) from VSC, modify the index.html<br>
-     7) from posh~git, stage and commit the index.html<br>
+     7) from posh~git, run the following commands:<br>
+            git add index.html (to stage)<br>
+            git commit -m '... the commit message ...'<br>
+            git push -u origin add-more-html (to push the local branch "add-more-html" to remote)<br>
+            note: use "git log -n"" to check the commit history<br>
+     8) from Github.com, click "Compare & pull request" button to create the pull request<br>
+     9) from posh~git, run the following commands:<br>
+            git checkout master<br>
+            git merge add-more-html (to merge the add-more-html and the master branches locally)<br>
+            git push (to push the "add-more-html" branch to remote<br>
+     10) from Github.com, delete the "add-more-html" branch<br>
     </p>
 </body>
 </html>
